@@ -1,0 +1,23 @@
+.illustration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.illustration:nth-child(2n) {
+  text-align: right;
+}
+.illustration img {
+  width: 48%;
+}
+
+.illustration div {
+  width: 50%;
+}
+
+.illustration h2 {
+  font-size: 48px;
+}
+
+.illustration p {
+  font-size: 15px;
+}

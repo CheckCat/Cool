@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) {
+  .video-container,
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .offer-img-container {
+    display: none;
+  }
+
+  .offer-title {
+    width: 95%;
+  }
+
+  .offer-title h1,
+  .offer-title p {
+    color: white;
+  }
+
+  .offer-title button a {
+    color: #ca5fe1;
+  }
+
+  .offer-title button {
+    background-color: white;
+  }
+
+  .video video {
+    height: 550px;
+  }
+
+  .advantages-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantage:not(:first-child) {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .video-container {
+    width: 100%;
+  }
+
+  .video video {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.advantages h2 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  font-size: 48px;
+  color: #575757;
+  text-align: center;
+}
+
+.advantages-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 203px;
+}

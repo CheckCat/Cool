@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gotham Pro", sans-serif;
+}
+
+.video-container,
+.container {
+  width: 60%;
+  margin: 0 auto;
+}

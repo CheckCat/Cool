@@ -1,0 +1,18 @@
+.advantage {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.advantage h3 {
+  margin-top: 36px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #575757;
+}
+
+.advantage p {
+  font-size: 15px;
+}

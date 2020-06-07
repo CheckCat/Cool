@@ -1,0 +1,16 @@
+.team-list {
+    margin-top: 32px;
+    margin-bottom: 38px;
+  }
+  
+  .team-list h3 {
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: white;
+  }
+  
+  .team-list li {
+    color: white;
+    list-style-type: none;
+    font-size: 12px;
+  }

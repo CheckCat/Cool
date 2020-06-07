@@ -1,0 +1,16 @@
+.background-video {
+  background: url("./background/background-video.png") no-repeat;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.video video {
+  margin-top: 192px;
+  margin-bottom: 264px;
+  width: 100%;
+  height: 718px;
+}
