@@ -7,21 +7,21 @@ class Illustrations extends Component {
     return (
       <div className="container">
         <Illustration
-          image="./image/suka.jpg"
-          title="Собака сутулая купи мне беляш"
-          text="беляшСобака сутулая купи мне беляшСобака сутулая купи мне беляшСобака сутулая купи мне "
+          image="./image/sample.jpg"
+          title="Заголовок"
+          text="Текст"
           flag
         />
         <Illustration
-          image="./image/suka.jpg"
-          title="Собака сутулая купи мне беляш"
-          text="беляшСобака сутулая купи мне беляшСобака сутулая купи мне беляшСобака сутулая купи мне "
+          image="./image/sample.jpg"
+          title="Заголовок"
+          text=""
           
         />
         <Illustration
-          image="./image/suka.jpg"
-          title="Собака сутулая купи мне беляш"
-          text="беляшСобака сутулая купи мне беляшСобака сутулая купи мне беляшСобака сутулая купи мне "
+          image="./image/sample.jpg"
+          title="Заголовок"
+          text="Текст"
           flag
         />
       </div>

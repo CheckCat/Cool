@@ -1,21 +1,83 @@
+.hidden {
+  display: none;
+}
+
 .illustration {
   display: flex;
   justify-content: space-between;
+  color: #444;
+  margin-top: 62px;
+}
+
+.illustration:first-child {
+  margin-top: 20px;
+}
+
+.illustration:last-child {
+  margin-bottom: 20px;
 }
 
 .illustration:nth-child(2n) {
   text-align: right;
 }
-.illustration img {
-  width: 48%;
+.illustration-image {
+  border-radius: 10px;
+  width: 35%;
+  cursor: pointer;
+}
+
+.illustration-modal-window {
+  position: fixed;
+  top: 55px;
+  right: 0;
+  bottom: 0;
+  left: 17%;
+
+  height: 0;
+
+  z-index: 12;
+}
+
+.illustration-modal-window img {
+  width: 120%;
+  border-radius: 15px;
+}
+
+.illustration-modal-window span,
+.illustration-modal-window span::before,
+.illustration-modal-window span::after {
+  width: 26px;
+  height: 4px;
+  border-radius: 20%;
+  position: absolute;
+  right: -225px;
+  top: 46%;
+  cursor: pointer;
+}
+
+.illustration-modal-window span::before,
+.illustration-modal-window span::after {
+  content: "";
+  left: 0;
+  top: 0;
+  background-color: red;
+}
+
+.illustration-modal-window span::before {
+  transform: rotate(45deg);
+}
+
+.illustration-modal-window span::after {
+  transform: rotate(-45deg);
 }
 
 .illustration div {
-  width: 50%;
+  width: 55%;
 }
 
 .illustration h2 {
-  font-size: 48px;
+  font-size: 19px;
+  margin-bottom: 30px;
 }
 
 .illustration p {
